@@ -1,0 +1,111 @@
+.ng-view{
+}
+
+.tracks{
+	background-color: white;
+	padding-top: 4px;
+	font-color:red;
+	height: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.nav{
+	border:1px solid black;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+#littleIcon{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    left: 10px;
+    bottom: 16px;
+
+}
+
+body{
+	padding-bottom: 70px;
+	background-color:rgb(236, 234, 234);
+}
+
+.navbar{
+
+	background-color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#audioplayer{
+	width: 480px;
+	height: 60px;
+	margin: ;
+	border: solid;
+}
+
+#pButton{
+    height:60px; 
+    width: 60px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+}
+
+
+
+.play{background-image: url("/Images/playIcon.png");
+	background-color: black;
+}
+
+.pause{background-image: url("/Images/pause.png");
+	background-color: black;
+
+}
+
+#placeholder{background-image: url("/Images/nowplaying-placeholder.png");
+	position: absolute;
+    left: 583px;
+    bottom: 14px;
+    height: 33px;
+    width: 457px;
+	background-color:rgb(236, 234, 234);
+	background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#playercontainer{
+	position: relative;	
+	left: 100px;
+}
+
+#timeline{
+	width: 400px;
+	height: 20px;
+	margin-top: 20px;
+	float: left;
+	border-radius: 15px;
+	background-color:rgb(236, 234, 234)  
+}
+#playhead{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	margin-top: 1px;
+	background: black;
+
+		}
+
+.navbar navbar-fixed-bottom{
+		height: 20px;
+}
+
