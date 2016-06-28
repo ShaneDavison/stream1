@@ -1,0 +1,4 @@
+GET	/users/{id}/favorites //get favourites of user
+
+GET	/users/{id}/playlists // get playlists
+

@@ -1,0 +1,9 @@
+
+  <div class="col-md-8">
+    <ul >
+      <li class="tracks" ng-repeat="playl in playlists">
+        <span>{{playl.title}}</span>
+      </li>
+    </ul>
+  </div>
+
